@@ -8,7 +8,7 @@ app.use(express.json())
 // app.use(express.urlencoded())
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(cors({
-    origin : "https://scoreboard-frontend-delta.vercel.app/"
+    origin : "https://scoreboard-frontend-delta.vercel.app"
 }))
 
 app.get("/event", (req, res) => {
